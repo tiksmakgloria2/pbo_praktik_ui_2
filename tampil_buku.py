@@ -55,7 +55,7 @@ root.geometry("900x500")
 buat_header(
     root,
     "DAFTAR BUKU PERPUSTAKAAN",
-    "#0d6efd"
+    "#c27e31"
 )
 
 content = tk.Frame(root)
@@ -83,7 +83,7 @@ buat_tombol(
     footer,
     "Refresh Data",
     lambda: tampilkan_buku(tree, label_total),
-    "#0d6efd",
+    "#b3874d",
     width=15,
     side="right"
 )
